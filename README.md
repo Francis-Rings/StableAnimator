@@ -145,7 +145,7 @@ onnx_pose = 'path/checkpoints/DWPose/dw-ll_ucoco_384.onnx'
 ```
 Given the target image folder containing multiple .png files, you can use the following command to obtain the corresponding human skeleton images:
 ```
-python skeleton_extraction.py --target_image_folder_path="path/test/target_images" --ref_image_path="path/test/reference.png" --poses_folder_path="path/test/poses"
+python DWPose/skeleton_extraction.py --target_image_folder_path="path/test/target_images" --ref_image_path="path/test/reference.png" --poses_folder_path="path/test/poses"
 ```
 It is worth noting that the .png files in the target image folder are named in the format `frame_i.png`, such as `frame_0.png`, `frame_1.png`, and so on. 
 `--ref_image_path` refers to the path of the given reference image. The obtained human skeleton images are saved in `path/test/poses`. It is particularly significant that the target skeleton images should be aligned with the reference image regarding the body shape.
