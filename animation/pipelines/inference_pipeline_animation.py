@@ -14,7 +14,7 @@ from diffusers.pipelines.stable_video_diffusion.pipeline_stable_video_diffusion 
 from diffusers.utils import BaseOutput, logging
 from diffusers.utils.torch_utils import is_compiled_module, randn_tensor
 
-from animation.modules.attention_processor import AnimationAttnProcessor, AnimationIDAttnProcessor
+from ..modules.attention_processor import AnimationAttnProcessor, AnimationIDAttnProcessor
 from einops import rearrange
 
 logger = logging.get_logger(__name__)  # pylint: disable=invalid-name

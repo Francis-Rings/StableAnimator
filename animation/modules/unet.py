@@ -10,7 +10,7 @@ from diffusers.models.embeddings import TimestepEmbedding, Timesteps
 from diffusers.models.modeling_utils import ModelMixin
 from diffusers.utils import BaseOutput, logging
 
-from animation.modules.unet_3d_blocks import get_down_block, UNetMidBlockSpatioTemporal, get_up_block
+from .unet_3d_blocks import get_down_block, UNetMidBlockSpatioTemporal, get_up_block
 # from diffusers.models.unets.unet_3d_blocks import get_down_block, get_up_block, UNetMidBlockSpatioTemporal
 
 
