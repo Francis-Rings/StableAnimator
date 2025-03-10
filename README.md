@@ -384,7 +384,7 @@ If you have any suggestions or find our work helpful, feel free to contact me
 
 Email: francisshuyuan@gmail.com
 
-If you find our work useful, <b>please consider giving a star to this github repository and citing it</b>:
+If you find our work useful, <b>please consider giving a star to this GitHub repository and citing it</b>:
 ```bib
 @article{tu2024stableanimator,
   title={StableAnimator: High-Quality Identity-Preserving Human Image Animation},
