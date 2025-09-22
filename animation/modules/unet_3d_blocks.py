@@ -32,7 +32,7 @@ from diffusers.models.transformers.transformer_2d import Transformer2DModel
 #     TransformerSpatioTemporalModel,
 #     TransformerTemporalModel,
 # )
-from animation.modules.transformer_temporal import TransformerTemporalModel, TransformerSpatioTemporalModel
+from .transformer_temporal import TransformerTemporalModel, TransformerSpatioTemporalModel
 
 from diffusers.models.unets.unet_motion_model import (
     CrossAttnDownBlockMotion,
